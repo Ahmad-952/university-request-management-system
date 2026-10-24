@@ -7,11 +7,6 @@
 **A complete help desk management system with circular queue implementation, SQLite persistence, and web UI.**
 
 📚 **Data Structures Assignment - Air University Islamabad**  
-👥 **Group Members:**
-- **Ahmad Hussain** (2500608)
-- **Jozza Batool** (2500594)
-- **Raja Wasif** (2500600)
-
 📅 **Submission Date:** October 24, 2026  
 🎓 **Course:** ADCS 3A - Data Structures
 
@@ -125,11 +120,11 @@ Browser opens automatically.
 ## 👤 Login Credentials
 
 ### Students
-| Name | Username | Password | Reg No |
-|------|----------|----------|--------|
-| Ahmad Hussain | `Ahmad` | `1234` | 2500608 |
-| Jozza Batool | `hina` | `1234` | 2500594 |
-| Raja Wasif | `usman` | `1234` | 2500600 |
+| Username | Password |
+|----------|----------|
+| `Ahmad` | `1234` |
+| `hina` | `1234` |
+| `usman` | `1234` |
 
 ### Admin & Operators
 | Role | Username | Password |
@@ -377,14 +372,6 @@ This is an academic project for Air University Islamabad.
 **For educational purposes only.**
 
 ---
-
-## 👥 Contributors
-
-| Member | Roll No | Contribution |
-|--------|---------|--------------|
-| Ahmad Hussain | 2500608 | Core implementation, database design |
-| Jozza Batool | 2500594 | Frontend UI, testing |
-| Raja Wasif | 2500600 | API design, documentation |
 
 ---
 
