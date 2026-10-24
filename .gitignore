@@ -1,0 +1,63 @@
+# Compiled executables
+*.exe
+*.obj
+*.ilk
+*.pdb
+
+# SQLite database (runtime data)
+*.db
+*.db-shm
+*.db-wal
+
+# Build artifacts
+*.obj
+*.pch
+*.res
+*.suo
+*.user
+*.vcxproj.user
+*.sdf
+*.opensdf
+*.sln.docstates
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+cookies.txt
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python cache (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Node modules (if any)
+node_modules/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# SQLite amalgamation (large files - 9MB)
+sqlite3.c
+
+# Crow library (if present)
+crow_all.h
+
+# Keep these
+!README.md
+!COMPARISON_REPORT.md

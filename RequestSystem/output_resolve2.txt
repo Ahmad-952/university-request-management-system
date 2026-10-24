@@ -1,0 +1,274 @@
+  [OK] Sample data loaded: 6 students, 1 admin, 2 operators, 4 requests.
+
+  +==============================================================+
+  | UNIVERSITY REQUEST MANAGEMENT SYSTEM                         |
+  | Circular Queue (FIFO)                                        |
+  | 2500608 Ahmad Hussain   2500594 Jozza Batool                 |
+  | 2500600 Raja wasif                                           |
+  +==============================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   PENDING REQUESTS  (pending: 3/20)
+  Pos Request ID   Reg No        Category      Submitted            Description
+  ---------------------------------------------------------------
+    1 REQ-0001     STD-2026-01   Fees          2026-10-20 09:15:00  Scholarship waiver not app
+    2 REQ-0002     STD-2026-02   Registration  2026-10-20 10:15:00  Course registration stuck 
+    3 REQ-0003     STD-2026-03   Examinations  2026-10-20 11:15:00  Roll number slip missing f
+  -> Next to process (oldest): REQ-0001
+     Use menu 2 to assign / resolve / reject it.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0001     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : Scholarship waiver not applied to my account
+  Submitted At  : 2026-10-20 09:15:00
+  Last Updated  : 2026-10-20 09:15:00
+  What do you want to do with REQ-0001?
+    1. Start processing - assign to an operator
+    2. Start processing - no operator
+    3. Resolve it now  (mark Resolved)
+    4. Reject it now   (mark Rejected)
+    5. Leave it in the queue (cancel)
+  Choice:   Admin note:   [OK] REQ-0001 -> Resolved.
+  [i] Next in queue is now: REQ-0002
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0002     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-02 (Hina Malik)
+  Category      : Registration
+  Description   : Course registration stuck on pending approval
+  Submitted At  : 2026-10-20 10:15:00
+  Last Updated  : 2026-10-20 10:15:00
+  What do you want to do with REQ-0002?
+    1. Start processing - assign to an operator
+    2. Start processing - no operator
+    3. Resolve it now  (mark Resolved)
+    4. Reject it now   (mark Rejected)
+    5. Leave it in the queue (cancel)
+  Choice:   Admin note:   [OK] REQ-0002 -> Rejected.
+  [i] Next in queue is now: REQ-0003
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0003     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-03 (Usman Tariq)
+  Category      : Examinations
+  Description   : Roll number slip missing for final exam
+  Submitted At  : 2026-10-20 11:15:00
+  Last Updated  : 2026-10-20 11:15:00
+  What do you want to do with REQ-0003?
+    1. Start processing - assign to an operator
+    2. Start processing - no operator
+    3. Resolve it now  (mark Resolved)
+    4. Reject it now   (mark Rejected)
+    5. Leave it in the queue (cancel)
+  Choice:   [OK] REQ-0003 left in the queue (still Pending).
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0003     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-03 (Usman Tariq)
+  Category      : Examinations
+  Description   : Roll number slip missing for final exam
+  Submitted At  : 2026-10-20 11:15:00
+  Last Updated  : 2026-10-20 11:15:00
+  What do you want to do with REQ-0003?
+    1. Start processing - assign to an operator
+    2. Start processing - no operator
+    3. Resolve it now  (mark Resolved)
+    4. Reject it now   (mark Rejected)
+    5. Leave it in the queue (cancel)
+  Choice:   Operators:
+    1. Kamran Sheikh (op1)
+    2. Sadia Raza (op2)
+  Choose operator:   [OK] REQ-0003 -> Processing (assigned to Kamran Sheikh).
+  [i] Queue is now empty.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   +--------------------------------------+
+  |       REQUEST STATISTICS             |
+  +--------------------------------------+
+  Pending    :    0   (in circular queue: 0/20)
+  Processing :    1
+  Resolved   :    2
+  Rejected   :    1
+  ----------------------------------------
+  Total      :    4
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   Request ID   Reg No        Category      Status      Submitted            Operator
+  ---------------------------------------------------------------
+  REQ-0001     STD-2026-01   Fees          Resolved    2026-10-20 09:15:00  -
+  REQ-0002     STD-2026-02   Registration  Rejected    2026-10-20 10:15:00  -
+  REQ-0003     STD-2026-03   Examinations  Processing  2026-10-20 11:15:00  Kamran Sheikh
+  REQ-0004     STD-2026-04   Fees          Resolved    2026-10-20 08:15:00  Kamran Sheikh
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   PENDING REQUESTS  (pending: 0/20)
+  (queue is empty - nothing pending)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   Request ID:   +--------------------------------------------------+
+  | Request REQ-0001     Resolved       |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : Scholarship waiver not applied to my account
+  Submitted At  : 2026-10-20 09:15:00
+  Last Updated  : 2026-10-24 15:21:38
+  Admin Note    : Resolved after verification
+  [ERROR] This request is already closed (Resolved) and cannot be changed.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   [ERROR] No pending requests to process.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   [ERROR] Invalid input! Enter a number between 0 and 7.
+  Choice:   +--------------------------------------+
+  |       REQUEST STATISTICS             |
+  +--------------------------------------+
+  Pending    :    0   (in circular queue: 0/20)
+  Processing :    1
+  Resolved   :    2
+  Rejected   :    1
+  ----------------------------------------
+  Total      :    4
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request -> assign / resolve / reject
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update status of an already-processing request
+  6. View statistics
+  7. View all requests
+  0. Logout
+  (hint: option 2 closes the request shown as 'next')
+  Choice:   [OK] Logged out.
+
+  +==============================================================+
+  | UNIVERSITY REQUEST MANAGEMENT SYSTEM                         |
+  | Circular Queue (FIFO)                                        |
+  | 2500608 Ahmad Hussain   2500594 Jozza Batool                 |
+  | 2500600 Raja wasif                                           |
+  +==============================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Thank you for using the University Request Management System. Goodbye!

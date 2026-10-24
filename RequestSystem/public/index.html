@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>University Request Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">UR</div>
+    <div>
+      <h1>University Request Management System</h1>
+      <p>Circular Queue (FIFO) &middot; DSA Assignment</p>
+    </div>
+  </div>
+  <div class="who" id="whoBox" hidden>
+    <div class="who-name" id="whoName"></div>
+    <div class="who-role" id="whoRole"></div>
+    <button class="btn btn-ghost" id="btnLogout">Logout</button>
+  </div>
+</header>
+
+<!-- ================= LOGIN ================= -->
+<section id="viewLogin" class="view">
+  <div class="card login-card">
+    <h2>Sign in</h2>
+    <p class="muted">Students and admins use separate accounts.</p>
+
+    <div class="tabs" id="roleTabs">
+      <button class="tab active" data-role="student">Student Login</button>
+      <button class="tab" data-role="admin">Admin / Help Desk</button>
+    </div>
+
+    <label class="field">
+      <span>Username</span>
+      <input type="text" id="loginUser" autocomplete="username" placeholder="e.g. anas">
+    </label>
+
+    <label class="field">
+      <span>Password</span>
+      <input type="password" id="loginPass" autocomplete="current-password" placeholder="••••">
+    </label>
+
+    <div class="alert" id="loginError" hidden></div>
+
+    <button class="btn btn-primary btn-block" id="btnLogin">Login</button>
+
+    <div class="hint">
+      <strong>Demo accounts</strong>
+      <div>Admin: <code>admin / admin123</code> &nbsp;&middot;&nbsp; Operators: <code>op1 / op1pass</code>, <code>op2 / op2pass</code></div>
+      <div>Username: <code>Ahmad</code> &nbsp;&middot;&nbsp; Password: <code>1234</code></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STUDENT ================= -->
+<section id="viewStudent" class="view" hidden>
+  <div class="grid-2">
+    <div class="card">
+      <h2>Submit a request</h2>
+      <p class="muted">Complaints about Fees, Registration, Examinations or Other.</p>
+
+      <label class="field">
+        <span>Category</span>
+        <select id="subCat">
+          <option value="">-- choose a category --</option>
+          <option value="Fees">Fees</option>
+          <option value="Registration">Registration</option>
+          <option value="Examinations">Examinations</option>
+          <option value="Other">Other</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Describe the complaint <em id="descCount">0</em>/400</span>
+        <textarea id="subDesc" rows="4" maxlength="400"
+          placeholder="Describe what went wrong..."></textarea>
+      </label>
+
+      <div class="alert" id="subError" hidden></div>
+      <div class="ok" id="subOk" hidden></div>
+
+      <button class="btn btn-primary" id="btnSubmit">Submit request</button>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h2>My requests</h2>
+        <button class="btn btn-ghost" id="btnMyRefresh">Refresh</button>
+      </div>
+      <div id="myList" class="list"></div>
+    </div>
+  </div>
+
+  <div class="card" id="myDetailCard" hidden>
+    <h2>Request details</h2>
+    <div id="myDetail" class="detail"></div>
+  </div>
+</section>
+
+<!-- ================= ADMIN ================= -->
+<section id="viewAdmin" class="view" hidden>
+
+  <!-- stats -->
+  <div class="stats" id="statRow">
+    <div class="stat st-pending"><b id="sPending">0</b><span>Pending</span></div>
+    <div class="stat st-processing"><b id="sProcessing">0</b><span>Processing</span></div>
+    <div class="stat st-resolved"><b id="sResolved">0</b><span>Resolved</span></div>
+    <div class="stat st-rejected"><b id="sRejected">0</b><span>Rejected</span></div>
+    <div class="stat st-total"><b id="sTotal">0</b><span>Total</span></div>
+  </div>
+
+  <div class="admin-actions">
+    <button class="btn btn-primary" id="btnQueue">View pending queue</button>
+    <button class="btn btn-warn"    id="btnProcess">Process next request</button>
+    <button class="btn"            id="btnAll">View all requests</button>
+  </div>
+
+  <!-- FIFO queue -->
+  <div class="card" id="queueCard" hidden>
+    <div class="card-head">
+      <h2>Pending queue <span class="muted small">(FIFO &mdash; oldest first)</span></h2>
+      <span class="pill" id="queueCount">0 / 20</span>
+    </div>
+    <div id="queueList" class="list"></div>
+  </div>
+
+  <!-- process next -->
+  <div class="card" id="processCard" hidden>
+    <h2>Process the next request</h2>
+    <div id="processDetail" class="detail"></div>
+
+    <h3 class="sub">What do you want to do?</h3>
+    <div class="choices" id="procChoices">
+      <label class="choice"><input type="radio" name="proc" value="process_op">
+        <span><b>1. Start processing</b><i>assign to an operator</i></span></label>
+      <label class="choice"><input type="radio" name="proc" value="process">
+        <span><b>2. Start processing</b><i>no operator</i></span></label>
+      <label class="choice"><input type="radio" name="proc" value="resolve">
+        <span><b>3. Resolve it now</b><i>mark Resolved</i></span></label>
+      <label class="choice"><input type="radio" name="proc" value="reject">
+        <span><b>4. Reject it now</b><i>mark Rejected</i></span></label>
+      <label class="choice"><input type="radio" name="proc" value="cancel">
+        <span><b>5. Leave in queue</b><i>stay Pending</i></span></label>
+    </div>
+
+    <label class="field" id="opField" hidden>
+      <span>Assign to operator</span>
+      <select id="procOperator"><option value="">-- choose operator --</option></select>
+    </label>
+
+    <label class="field" id="noteField" hidden>
+      <span>Admin note <em>(required)</em></span>
+      <textarea id="procNote" rows="2" maxlength="200" placeholder="What was done / why rejected"></textarea>
+    </label>
+
+    <div class="alert" id="procError" hidden></div>
+    <div class="ok" id="procOk" hidden></div>
+
+    <div class="row">
+      <button class="btn btn-primary" id="btnProcGo">Confirm</button>
+      <button class="btn btn-ghost"   id="btnProcClose">Close</button>
+    </div>
+  </div>
+
+  <!-- search -->
+  <div class="card" id="searchCard">
+    <h2>Search requests</h2>
+    <div class="row wrap">
+      <select id="searchMode">
+        <option value="id">By request ID</option>
+        <option value="reg">By registration number</option>
+      </select>
+      <input type="text" id="searchInput" placeholder="REQ-0001">
+      <button class="btn btn-primary" id="btnSearch">Search</button>
+    </div>
+    <div class="alert" id="searchError" hidden></div>
+    <div id="searchList" class="list"></div>
+  </div>
+
+  <!-- all -->
+  <div class="card" id="allCard" hidden>
+    <h2>All requests</h2>
+    <div id="allList" class="list"></div>
+  </div>
+
+  <!-- status update -->
+  <div class="card" id="statusCard" hidden>
+    <h2>Update status</h2>
+    <div id="statusDetail" class="detail"></div>
+
+    <label class="field">
+      <span>New status</span>
+      <select id="stSel">
+        <option value="">-- choose status --</option>
+        <option value="Processing">Processing</option>
+        <option value="Resolved">Resolved</option>
+        <option value="Rejected">Rejected</option>
+      </select>
+    </label>
+
+    <label class="field" id="stNoteField" hidden>
+      <span>Admin note <em>(required for Resolved / Rejected)</em></span>
+      <textarea id="stNote" rows="2" maxlength="200"></textarea>
+    </label>
+
+    <div class="alert" id="stError" hidden></div>
+    <div class="ok" id="stOk" hidden></div>
+
+    <div class="row">
+      <button class="btn btn-primary" id="btnStGo">Save status</button>
+      <button class="btn btn-ghost"   id="btnStClose">Close</button>
+    </div>
+  </div>
+</section>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="script.js"></script>
+</body>
+</html>

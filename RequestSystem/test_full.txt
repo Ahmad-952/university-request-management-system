@@ -1,0 +1,56 @@
+1
+anas
+wrongpass
+anas
+1234
+1
+1
+Scholarship waiver not applied to my account
+1
+4
+Cafeteria remain open till late hours
+2
+3
+REQ-0005
+3
+REQ-9999
+0
+2
+admin
+admin123
+1
+2
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+3
+REQ-0001
+3
+REQ-9999
+4
+STD-2026-03
+4
+STD-9999
+5
+REQ-0005
+2
+Waiver approved by finance office
+5
+REQ-0006
+3
+Not a university issue
+5
+REQ-0004
+1
+6
+7
+0
+0

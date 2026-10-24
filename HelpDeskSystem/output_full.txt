@@ -1,0 +1,1537 @@
+  Welcome! Loading sample data...
+  [OK] Sample data loaded: 8 students, 6 staff, 6 tickets, 8 KB articles.
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Student ID (e.g. STD-2026-01):   [ERROR] Student ID 'STD-2026-99' not found. Register the student first (Menu 7 -> 2).
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Student ID (e.g. STD-2026-01):   Categories:
+    1. Academics
+    2. Finance
+    3. Hostel
+    4. Transport
+    5. IT Support
+    6. Health
+    7. Library
+    8. Others
+  Choose category:   Problem description:   Priority: 1. Low   2. Medium   3. High
+  Choose priority:   [ERROR] Invalid input! Enter a number between 1 and 3.
+  Choose priority:   [OK] Ticket TCK-1007 created and queued.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   +----------------------------------------------------------+
+  | Ticket TCK-1007     Status: Open                 |
+  +----------------------------------------------------------+
+  Student ID    : STD-2026-01
+  Category      : Finance
+  Priority      : High
+  Description   : Tuition fee refund not processed for spring semester
+  Created At    : 2026-10-24 14:37:12
+  Last Updated  : 2026-10-24 14:37:12
+  Linked KB Articles: (none)
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   +----------------------------------------------------------+
+  | Ticket TCK-1007     Status: Open                 |
+  +----------------------------------------------------------+
+  Student ID    : STD-2026-01
+  Category      : Finance
+  Priority      : High
+  Description   : Tuition fee refund not processed for spring semester
+  Created At    : 2026-10-24 14:37:12
+  Last Updated  : 2026-10-24 14:37:12
+  Linked KB Articles: (none)
+  1. Change status (Open/In Progress/Resolved/Closed)
+  2. Change priority
+  3. Add resolution note
+  4. Link a Knowledge Base article
+  5. Cancel
+  Choice:   1. Open   2. In Progress   3. Resolved   4. Closed
+  New status:   [OK] Ticket TCK-1007 updated.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   +----------------------------------------------------------+
+  | Ticket TCK-1007     Status: In Progress          |
+  +----------------------------------------------------------+
+  Student ID    : STD-2026-01
+  Category      : Finance
+  Priority      : High
+  Description   : Tuition fee refund not processed for spring semester
+  Created At    : 2026-10-24 14:37:12
+  Last Updated  : 2026-10-24 14:37:12
+  Linked KB Articles: (none)
+  1. Change status (Open/In Progress/Resolved/Closed)
+  2. Change priority
+  3. Add resolution note
+  4. Link a Knowledge Base article
+  5. Cancel
+  Choice:   1. Low   2. Medium   3. High
+  New priority:   [OK] Ticket TCK-1007 updated.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   +----------------------------------------------------------+
+  | Ticket TCK-1007     Status: In Progress          |
+  +----------------------------------------------------------+
+  Student ID    : STD-2026-01
+  Category      : Finance
+  Priority      : Low
+  Description   : Tuition fee refund not processed for spring semester
+  Created At    : 2026-10-24 14:37:12
+  Last Updated  : 2026-10-24 14:37:12
+  Linked KB Articles: (none)
+  1. Change status (Open/In Progress/Resolved/Closed)
+  2. Change priority
+  3. Add resolution note
+  4. Link a Knowledge Base article
+  5. Cancel
+  Choice:   Resolution notes:   [OK] Ticket TCK-1007 updated.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   +----------------------------------------------------------+
+  | Ticket TCK-1007     Status: In Progress          |
+  +----------------------------------------------------------+
+  Student ID    : STD-2026-01
+  Category      : Finance
+  Priority      : Low
+  Description   : Tuition fee refund not processed for spring semester
+  Created At    : 2026-10-24 14:37:12
+  Last Updated  : 2026-10-24 14:37:12
+  Resolution    : Refund initiated via finance office
+  Linked KB Articles: (none)
+  1. Change status (Open/In Progress/Resolved/Closed)
+  2. Change priority
+  3. Add resolution note
+  4. Link a Knowledge Base article
+  5. Cancel
+  Choice:   Articles for this category:
+    1. [KB-002] Understanding your fee challan
+  Choose article:   [OK] Ticket TCK-1007 updated.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   Staff with matching specialization:
+    - STF-02 Kamran Sheikh (current load: 0)
+  [OK] Ticket TCK-1007 assigned to Kamran Sheikh (minimum workload).
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   === SERVICE QUEUE (7 active tickets) ===
+  Ticket     Student        Category    Priority Status      Created At
+  ---------------------------------------------------------------
+  # 1   TCK-1001   STD-2026-01    IT Support  High    Open        2026-10-20 09:15:00  Cannot access student portal afte.
+  # 2   TCK-1002   STD-2026-02    Finance     High    Open        2026-10-20 10:15:00  Tuition fee payment not reflected.
+  # 3   TCK-1003   STD-2026-03    Hostel      Medium  Open        2026-10-20 11:15:00  Room allotment letter not receive.
+  # 4   TCK-1004   STD-2026-04    Academics   Medium  Open        2026-10-20 12:15:00  Need transcript for scholarship a.
+  # 5   TCK-1006   STD-2026-06    Library     Medium  Open        2026-10-20 14:15:00  Journal access denied from off-ca.
+  # 6   TCK-1005   STD-2026-05    Transport   Low     Open        2026-10-20 13:15:00  Bus route 4 timetable changed wit.
+  # 7   TCK-1007   STD-2026-01    Finance     Low     In Progress 2026-10-24 14:37:12  Tuition fee refund not processed .
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   [OK] Ticket TCK-1007 resolved & moved to archive.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   [ERROR] Already resolved.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   Rating (1-5):   [OK] Thank you for your feedback!
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   [ERROR] Only resolved/closed tickets can be rated.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Ticket ID:   [ERROR] Ticket not found.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. View a student's tickets
+  2. Register a new student
+  Choice:   Student ID:   ID         : STD-2026-01
+  Name       : Anas Ali
+  Email      : anas@univ.edu
+  Department : Computer Science
+  Phone      : 0300-1111111
+
+  Tickets for Anas Ali (sorted by priority, then time):
+  Ticket     Category    Priority Status      Created At
+  ---------------------------------------------------------------
+  TCK-1001   IT Support  High     Open        2026-10-20 09:15:00
+  TCK-1007   Finance     Low      Resolved    2026-10-24 14:37:12
+  Total: 2  |  Active: 1  |  Completed: 1
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. View a student's tickets
+  2. Register a new student
+  Choice:   Student ID (e.g. STD-2026-09):   Full name:   Email:   Department:   Phone:   [OK] Student STD-2026-09 registered.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   === SERVICE QUEUE (6 active tickets) ===
+  Ticket     Student        Category    Priority Status      Created At
+  ---------------------------------------------------------------
+  # 1   TCK-1001   STD-2026-01    IT Support  High    Open        2026-10-20 09:15:00  Cannot access student portal afte.
+  # 2   TCK-1002   STD-2026-02    Finance     High    Open        2026-10-20 10:15:00  Tuition fee payment not reflected.
+  # 3   TCK-1003   STD-2026-03    Hostel      Medium  Open        2026-10-20 11:15:00  Room allotment letter not receive.
+  # 4   TCK-1004   STD-2026-04    Academics   Medium  Open        2026-10-20 12:15:00  Need transcript for scholarship a.
+  # 5   TCK-1006   STD-2026-06    Library     Medium  Open        2026-10-20 14:15:00  Journal access denied from off-ca.
+  # 6   TCK-1005   STD-2026-05    Transport   Low     Open        2026-10-20 13:15:00  Bus route 4 timetable changed wit.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Queue size: 6
+  How many (K) highest-priority tickets?   1. Peek only (view top-K, keep them in queue)
+  2. Extract (remove top-K into a staging batch)
+  Choice: 
+  Top 3 highest-priority tickets:
+  Ticket     Category    Priority Status      Description
+  ---------------------------------------------------------------
+  TCK-1001   IT Support  High     Open        Cannot access student portal after pas
+  TCK-1002   Finance     High     Open        Tuition fee payment not reflected in L
+  TCK-1003   Hostel      Medium   Open        Room allotment letter not received yet
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Queue size: 6
+  How many (K) highest-priority tickets?   1. Peek only (view top-K, keep them in queue)
+  2. Extract (remove top-K into a staging batch)
+  Choice: 
+  Top 2 highest-priority tickets:
+  Ticket     Category    Priority Status      Description
+  ---------------------------------------------------------------
+  TCK-1001   IT Support  High     Open        Cannot access student portal after pas
+  TCK-1002   Finance     High     Open        Tuition fee payment not reflected in L
+  [OK] 2 tickets extracted into staging batch (use Menu 3.4 to return them).
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   === SERVICE QUEUE BY CATEGORY ===
+  -- Academics --
+      TCK-1004   Medium   Open        Need transcript for scholarship applicat
+  -- Hostel --
+      TCK-1003   Medium   Open        Room allotment letter not received yet
+  -- Transport --
+      TCK-1005   Low      Open        Bus route 4 timetable changed without no
+  -- Library --
+      TCK-1006   Medium   Open        Journal access denied from off-campus ne
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. View staging batch   2. Return batch to queue
+  Choice:   Staging batch (2 tickets):
+    TCK-1001   High     Cannot access student portal after passw
+    TCK-1002   High     Tuition fee payment not reflected in LMS
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. View staging batch   2. Return batch to queue
+  Choice:   [OK] All 2 tickets returned to the service queue.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Staff priority ranking (binary max-heap):
+  Rank Staff ID  Name            Resolved  Avg Rating  Skills
+  ------------------------------------------------------------
+     1 STF-02    Kamran Sheikh   1         5.00        Finance
+     2 STF-01    Sadia Raza      0         0.00        Academics, IT Support
+     3 STF-03    Nadia Aslam     0         0.00        Hostel, Transport
+     4 STF-04    Imran Javed     0         0.00        IT Support
+     5 STF-05    Rabia Sultan    0         0.00        Academics, Library
+     6 STF-06    Tariq Mehmood   0         0.00        Health
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Categories:
+    1. Academics
+    2. Finance
+    3. Hostel
+    4. Transport
+    5. IT Support
+    6. Health
+    7. Library
+    8. Others
+  Choose category:   AVL retrieval -> 1 ticket(s) in 'IT Support' (priority order):
+    TCK-1001   High     Open        Cannot access student portal after pas
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   TOTALS: tickets=7  in-queue=6  archived=1  students=9  staff=6  KB-articles=8
+
+  Category distribution:
+    Academics     1
+    Finance       2
+    Hostel        1
+    Transport     1
+    IT Support    1
+    Library       1
+
+  Status distribution:
+    Open          6
+    In Progress   0
+    Resolved      1
+    Closed        0
+
+  AVL index: nodes=7  height=4  (balanced: O(log n) priority retrieval)
+  Hash tables: students=9  staff=6  tickets=7
+  Operation log entries: 28
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   === HISTORY ARCHIVE (1) ===
+  Ticket     Student        Category    Staff     Rating  Resolved At
+  ---------------------------------------------------------------
+  TCK-1007   STD-2026-01    Finance     STF-02    5/5     2026-10-24 14:37:12
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Article title:   Categories:
+    1. Academics
+    2. Finance
+    3. Hostel
+    4. Transport
+    5. IT Support
+    6. Health
+    7. Library
+    8. Others
+  Choose category:   Article content:   [OK] Article KB-009 added to the knowledge base.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Categories:
+    1. Academics
+    2. Finance
+    3. Hostel
+    4. Transport
+    5. IT Support
+    6. Health
+    7. Library
+    8. Others
+  Choose category:   2 article(s) found:
+  [KB-002] Understanding your fee challan  (Finance)  views: 1
+      Challans are generated every semester; pay before the due date to avoid fine.
+  [KB-009] Fee refund processing timeline  (Finance)  views: 0
+      Refunds are processed within 10 working days after approval.
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. Pre-order   2. In-order   3. Post-order
+  Traversal:   Pre-order traversal (9 articles):
+    KB-001 IT Support  Resetting your student portal password
+    KB-002 Finance     Understanding your fee challan
+    KB-005 Academics   Transcript request procedure
+    KB-003 Hostel      Hostel room allotment process
+    KB-009 Finance     Fee refund processing timeline
+    KB-004 Transport   Bus routes and timings
+    KB-006 Library     Library off-campus access
+    KB-007 Health      Health center services
+    KB-008 IT Support  Wi-Fi connectivity guide
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. Pre-order   2. In-order   3. Post-order
+  Traversal:   In-order traversal (9 articles):
+    KB-005 Academics   Transcript request procedure
+    KB-002 Finance     Understanding your fee challan
+    KB-009 Finance     Fee refund processing timeline
+    KB-003 Hostel      Hostel room allotment process
+    KB-004 Transport   Bus routes and timings
+    KB-001 IT Support  Resetting your student portal password
+    KB-008 IT Support  Wi-Fi connectivity guide
+    KB-007 Health      Health center services
+    KB-006 Library     Library off-campus access
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. Pre-order   2. In-order   3. Post-order
+  Traversal:   Post-order traversal (9 articles):
+    KB-005 Academics   Transcript request procedure
+    KB-009 Finance     Fee refund processing timeline
+    KB-004 Transport   Bus routes and timings
+    KB-003 Hostel      Hostel room allotment process
+    KB-002 Finance     Understanding your fee challan
+    KB-008 IT Support  Wi-Fi connectivity guide
+    KB-007 Health      Health center services
+    KB-006 Library     Library off-campus access
+    KB-001 IT Support  Resetting your student portal password
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. Newest -> oldest   2. Oldest -> newest
+  Choice:   #30  2026-10-24 14:37:12  KB-SEARCHED           category Finance (2 hits)
+  #29  2026-10-24 14:37:12  KB-ADDED              KB-009 [Finance] Fee refund processing timeline
+  #28  2026-10-24 14:37:12  BATCH-RETURNED        2 tickets re-queued in priority order
+  #27  2026-10-24 14:37:12  TOP-K-EXTRACTED       2 tickets moved to staging batch
+  #26  2026-10-24 14:37:12  HEAP-REBALANCE        Staff ranking heap re-ordered after batch of 5 operations
+  #25  2026-10-24 14:37:12  TOP-K-PEEKED          viewed top 3 tickets
+  #24  2026-10-24 14:37:12  STUDENT-ADDED         STD-2026-09 Hassan Raza
+  #23  2026-10-24 14:37:12  TICKET-RATED          TCK-1007 rated 5/5
+  #22  2026-10-24 14:37:12  TICKET-RESOLVED       TCK-1007 archived
+  #21  2026-10-24 14:37:12  TICKET-ASSIGNED       TCK-1007 -> STF-02 (Kamran Sheikh)
+  #20  2026-10-24 14:37:12  HEAP-REBALANCE        Staff ranking heap re-ordered after batch of 5 operations
+  #19  2026-10-24 14:37:12  KB-LINKED             TCK-1007 -> KB-002
+  #18  2026-10-24 14:37:12  NOTES-ADDED           TCK-1007 : Refund initiated via finance office
+  #17  2026-10-24 14:37:12  PRIORITY-UPDATED      TCK-1007 -> Low (re-positioned in queue & AVL)
+  #16  2026-10-24 14:37:12  STATUS-UPDATED        TCK-1007 -> In Progress
+  #15  2026-10-24 14:37:12  TICKET-CREATED        TCK-1007 [Finance/High] by STD-2026-01
+  #14  2026-10-24 14:37:12  KB-ADDED              KB-008 Wi-Fi connectivity guide
+  #13  2026-10-24 14:37:12  KB-ADDED              KB-007 Health center services
+  #12  2026-10-24 14:37:12  KB-ADDED              KB-006 Library off-campus access
+  #11  2026-10-24 14:37:12  KB-ADDED              KB-005 Transcript request procedure
+  #10  2026-10-24 14:37:12  KB-ADDED              KB-004 Bus routes and timings
+  #9   2026-10-24 14:37:12  KB-ADDED              KB-003 Hostel room allotment process
+  #8   2026-10-24 14:37:12  KB-ADDED              KB-002 Understanding your fee challan
+  #7   2026-10-24 14:37:12  KB-ADDED              KB-001 Resetting your student portal password
+  #6   2026-10-24 14:37:12  TICKET-CREATED        TCK-1006 [Library/Medium]
+  #5   2026-10-24 14:37:12  TICKET-CREATED        TCK-1005 [Transport/Low]
+  #4   2026-10-24 14:37:12  TICKET-CREATED        TCK-1004 [Academics/Medium]
+  #3   2026-10-24 14:37:12  TICKET-CREATED        TCK-1003 [Hostel/Medium]
+  #2   2026-10-24 14:37:12  TICKET-CREATED        TCK-1002 [Finance/High]
+  #1   2026-10-24 14:37:12  TICKET-CREATED        TCK-1001 [IT Support/High]
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   1. Newest -> oldest   2. Oldest -> newest
+  Choice:   #1   2026-10-24 14:37:12  TICKET-CREATED        TCK-1001 [IT Support/High]
+  #2   2026-10-24 14:37:12  TICKET-CREATED        TCK-1002 [Finance/High]
+  #3   2026-10-24 14:37:12  TICKET-CREATED        TCK-1003 [Hostel/Medium]
+  #4   2026-10-24 14:37:12  TICKET-CREATED        TCK-1004 [Academics/Medium]
+  #5   2026-10-24 14:37:12  TICKET-CREATED        TCK-1005 [Transport/Low]
+  #6   2026-10-24 14:37:12  TICKET-CREATED        TCK-1006 [Library/Medium]
+  #7   2026-10-24 14:37:12  KB-ADDED              KB-001 Resetting your student portal password
+  #8   2026-10-24 14:37:12  KB-ADDED              KB-002 Understanding your fee challan
+  #9   2026-10-24 14:37:12  KB-ADDED              KB-003 Hostel room allotment process
+  #10  2026-10-24 14:37:12  KB-ADDED              KB-004 Bus routes and timings
+  #11  2026-10-24 14:37:12  KB-ADDED              KB-005 Transcript request procedure
+  #12  2026-10-24 14:37:12  KB-ADDED              KB-006 Library off-campus access
+  #13  2026-10-24 14:37:12  KB-ADDED              KB-007 Health center services
+  #14  2026-10-24 14:37:12  KB-ADDED              KB-008 Wi-Fi connectivity guide
+  #15  2026-10-24 14:37:12  TICKET-CREATED        TCK-1007 [Finance/High] by STD-2026-01
+  #16  2026-10-24 14:37:12  STATUS-UPDATED        TCK-1007 -> In Progress
+  #17  2026-10-24 14:37:12  PRIORITY-UPDATED      TCK-1007 -> Low (re-positioned in queue & AVL)
+  #18  2026-10-24 14:37:12  NOTES-ADDED           TCK-1007 : Refund initiated via finance office
+  #19  2026-10-24 14:37:12  KB-LINKED             TCK-1007 -> KB-002
+  #20  2026-10-24 14:37:12  HEAP-REBALANCE        Staff ranking heap re-ordered after batch of 5 operations
+  #21  2026-10-24 14:37:12  TICKET-ASSIGNED       TCK-1007 -> STF-02 (Kamran Sheikh)
+  #22  2026-10-24 14:37:12  TICKET-RESOLVED       TCK-1007 archived
+  #23  2026-10-24 14:37:12  TICKET-RATED          TCK-1007 rated 5/5
+  #24  2026-10-24 14:37:12  STUDENT-ADDED         STD-2026-09 Hassan Raza
+  #25  2026-10-24 14:37:12  TOP-K-PEEKED          viewed top 3 tickets
+  #26  2026-10-24 14:37:12  HEAP-REBALANCE        Staff ranking heap re-ordered after batch of 5 operations
+  #27  2026-10-24 14:37:12  TOP-K-EXTRACTED       2 tickets moved to staging batch
+  #28  2026-10-24 14:37:12  BATCH-RETURNED        2 tickets re-queued in priority order
+  #29  2026-10-24 14:37:12  KB-ADDED              KB-009 [Finance] Fee refund processing timeline
+  #30  2026-10-24 14:37:12  KB-SEARCHED           category Finance (2 hits)
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   Keyword:   #23 2026-10-24 14:37:12  TICKET-RATED          TCK-1007 rated 5/5
+  #22 2026-10-24 14:37:12  TICKET-RESOLVED       TCK-1007 archived
+  #21 2026-10-24 14:37:12  TICKET-ASSIGNED       TCK-1007 -> STF-02 (Kamran Sheikh)
+  #19 2026-10-24 14:37:12  KB-LINKED             TCK-1007 -> KB-002
+  #18 2026-10-24 14:37:12  NOTES-ADDED           TCK-1007 : Refund initiated via finance office
+  #17 2026-10-24 14:37:12  PRIORITY-UPDATED      TCK-1007 -> Low (re-positioned in queue & AVL)
+  #16 2026-10-24 14:37:12  STATUS-UPDATED        TCK-1007 -> In Progress
+  #15 2026-10-24 14:37:12  TICKET-CREATED        TCK-1007 [Finance/High] by STD-2026-01
+  8 matching operation(s).
+
+  --------------------------------------------------------------
+
+  +==============================================================+
+  |     UNIVERSITY HELP DESK MANAGEMENT SYSTEM                  |
+  |     DSA Assignment #02 - Anas (Roll No: 1068)               |
+  +==============================================================+
+   TICKETS
+     1. Add new ticket                     (a)
+     2. View ticket by ID                  (b)
+     3. Update ticket                      (b)
+     4. Assign ticket to staff             (e)
+     5. Resolve ticket -> archive          (k)
+     6. Rate ticket satisfaction           (h)
+   STUDENTS / QUEUE
+     7. Student: view tickets / register   (c)
+     8. View service queue                 (d)
+     9. Retrieve K highest-priority tickets(d)
+    10. View queue grouped by category
+    11. Staging batch: view / return       (d)
+   REPORTS / STRUCTURES
+    12. Staff ranking (heap)               (e)
+    13. AVL: query tickets by category     (f)
+    14. Statistics report                  (h)
+    15. View history archive               (k)
+   KNOWLEDGE BASE
+    16. Add KB article                     (g)
+    17. Search KB by category              (g)
+    18. KB tree traversals                 (g)
+   OTHERS
+    19. View operation log                 (i)
+    20. Search operation log               (i)
+     0. Exit
+  --------------------------------------------------------------
+  Enter choice:   [ERROR] Invalid input! Enter a number between 0 and 20.
+  Enter choice:   [ERROR] Invalid input! Enter a number between 0 and 20.
+  Enter choice: 
+  --------------------------------------------------------------
+  Thank you for using the University Help Desk Management System. Goodbye!

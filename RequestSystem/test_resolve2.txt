@@ -1,0 +1,25 @@
+2
+admin
+admin123
+1
+2
+3
+Resolved after verification
+2
+4
+Duplicate request
+2
+5
+2
+1
+1
+6
+7
+1
+5
+REQ-0001
+2
+Closed later
+6
+0
+0

@@ -1,0 +1,125 @@
+  [OK] Sample data loaded: 6 students, 1 admin, 2 operators, 4 requests.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   PENDING REQUESTS  (pending: 3/20)
+  Pos Request ID   Reg No        Category      Submitted            Description
+  ---------------------------------------------------------------
+    1 REQ-0001     STD-2026-01   Fees          2026-10-20 09:15:00  Scholarship waiver not app
+    2 REQ-0002     STD-2026-02   Registration  2026-10-20 10:15:00  Course registration stuck 
+    3 REQ-0003     STD-2026-03   Examinations  2026-10-20 11:15:00  Roll number slip missing f
+  -> Next to process (oldest): REQ-0001
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0001     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : Scholarship waiver not applied to my account
+  Submitted At  : 2026-10-20 09:15:00
+  Last Updated  : 2026-10-20 09:15:00
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0001 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Request ID:   +--------------------------------------------------+
+  | Request REQ-0001     Processing     |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : Scholarship waiver not applied to my account
+  Submitted At  : 2026-10-20 09:15:00
+  Last Updated  : 2026-10-24 15:16:25
+  New status: 1. Processing   2. Resolved   3. Rejected
+  Choice:   Admin note:   [OK] REQ-0001 status -> Resolved.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   +--------------------------------------+
+  |       REQUEST STATISTICS             |
+  +--------------------------------------+
+  Pending    :    2   (in circular queue: 2/20)
+  Processing :    0
+  Resolved   :    2
+  Rejected   :    0
+  ----------------------------------------
+  Total      :    4
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   PENDING REQUESTS  (pending: 2/20)
+  Pos Request ID   Reg No        Category      Submitted            Description
+  ---------------------------------------------------------------
+    1 REQ-0002     STD-2026-02   Registration  2026-10-20 10:15:00  Course registration stuck 
+    2 REQ-0003     STD-2026-03   Examinations  2026-10-20 11:15:00  Roll number slip missing f
+  -> Next to process (oldest): REQ-0002
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Thank you for using the University Request Management System. Goodbye!

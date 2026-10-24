@@ -1,0 +1,2537 @@
+  [OK] Sample data loaded: 6 students, 1 admin, 2 operators, 4 requests.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0005 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0001     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : Scholarship waiver not applied to my account
+  Submitted At  : 2026-10-20 09:15:00
+  Last Updated  : 2026-10-20 09:15:00
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0001 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0006 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0002     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-02 (Hina Malik)
+  Category      : Registration
+  Description   : Course registration stuck on pending approval
+  Submitted At  : 2026-10-20 10:15:00
+  Last Updated  : 2026-10-20 10:15:00
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0002 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0007 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0003     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-03 (Usman Tariq)
+  Category      : Examinations
+  Description   : Roll number slip missing for final exam
+  Submitted At  : 2026-10-20 11:15:00
+  Last Updated  : 2026-10-20 11:15:00
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0003 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0008 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0005     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 1
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0005 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0009 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0006     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 2
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0006 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0010 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0007     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 3
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0007 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0011 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0008     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 4
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0008 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0012 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0009     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 5
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0009 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0013 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0010     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 6
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0010 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0014 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0011     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 7
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0011 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0015 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0012     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 8
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0012 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0016 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0013     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 9
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0013 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0017 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0014     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 10
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0014 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0018 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0015     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 11
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0015 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0019 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0016     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 12
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0016 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0020 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0017     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 13
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0017 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0021 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0018     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 14
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0018 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0022 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0019     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 15
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0019 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0023 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0020     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 16
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0020 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0024 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0021     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 17
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0021 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0025 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0022     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 18
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0022 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0026 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0023     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 19
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0023 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0027 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0024     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 20
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0024 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0028 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0025     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 21
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0025 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0029 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0026     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 22
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0026 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Student username:   Password:   [OK] Welcome, Anas Ali (Student)
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0030 submitted. Position in queue: 4
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0031 submitted. Position in queue: 5
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0032 submitted. Position in queue: 6
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0033 submitted. Position in queue: 7
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0034 submitted. Position in queue: 8
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0035 submitted. Position in queue: 9
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0036 submitted. Position in queue: 10
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0037 submitted. Position in queue: 11
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0038 submitted. Position in queue: 12
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0039 submitted. Position in queue: 13
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0040 submitted. Position in queue: 14
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0041 submitted. Position in queue: 15
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0042 submitted. Position in queue: 16
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0043 submitted. Position in queue: 17
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0044 submitted. Position in queue: 18
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0045 submitted. Position in queue: 19
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [OK] Request REQ-0046 submitted. Position in queue: 20
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [ERROR] Queue is full (20 pending requests). Please try again later.
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [ERROR] Queue is full (20 pending requests). Please try again later.
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [ERROR] Queue is full (20 pending requests). Please try again later.
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   Categories:
+    1. Fees
+    2. Registration
+    3. Examinations
+    4. Other
+  Choose category:   Describe the complaint:   [ERROR] Queue is full (20 pending requests). Please try again later.
+
+  --- Student Menu [Anas Ali / STD-2026-01] ----------------------
+  1. Submit a request
+  2. View my requests
+  3. View request details by ID
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Admin / Operator username:   Password:   [OK] Welcome, Help Desk Admin (Admin)
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0027     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 23
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0027 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0028     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 24
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0028 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0029     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : wrap test issue number 25
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0029 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0030     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 1
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0030 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0031     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 2
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0031 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0032     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 3
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0032 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0033     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 4
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0033 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0034     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 5
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0034 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0035     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 6
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0035 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0036     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 7
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0036 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0037     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 8
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0037 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0038     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 9
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0038 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0039     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 10
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0039 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0040     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 11
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0040 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0041     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 12
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0041 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0042     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 13
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0042 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0043     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 14
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0043 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0044     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 15
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0044 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0045     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 16
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0045 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   Next request in FIFO order:
+  +--------------------------------------------------+
+  | Request REQ-0046     Pending        |
+  +--------------------------------------------------+
+  Student Reg   : STD-2026-01 (Anas Ali)
+  Category      : Fees
+  Description   : fill item 17
+  Submitted At  : 2026-10-24 14:47:03
+  Last Updated  : 2026-10-24 14:47:03
+  Assign this request to an operator? 1. Yes   2. No
+  Choice:   [OK] REQ-0046 is now Processing.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [ERROR] No pending requests to process.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [ERROR] No pending requests to process.
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   +--------------------------------------+
+  |       REQUEST STATISTICS             |
+  +--------------------------------------+
+  Pending    :    0   (in circular queue: 0/20)
+  Processing :   45
+  Resolved   :    1
+  Rejected   :    0
+  ----------------------------------------
+  Total      :   46
+
+  --- Admin Menu [Help Desk Admin / Admin] ----------------------
+  1. View pending requests (queue, oldest first)
+  2. Process next request (FIFO)
+  3. Search by request ID
+  4. Search by student registration number
+  5. Update request status
+  6. View statistics
+  7. View all requests
+  0. Logout
+  Choice:   [OK] Logged out.
+
+  +======================================================+
+  |   UNIVERSITY REQUEST MANAGEMENT SYSTEM               |
+  |   Circular Queue (FIFO) - Anas (Roll No: 1068)      |
+  +======================================================+
+  1. Student Login
+  2. Admin / Help Desk Login
+  0. Exit
+  ------------------------------------------------------
+  Enter choice:   Thank you for using the University Request Management System. Goodbye!
